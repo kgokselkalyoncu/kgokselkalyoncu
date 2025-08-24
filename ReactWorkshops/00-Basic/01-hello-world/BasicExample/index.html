@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <title>Hello World React</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+        // Only JS 
+        // Performans düşük
+        // Kod yazımı olarak zor
+
+        // const mesaj = "Merhaba";
+        // const template = `<h1>${mesaj} JS ile HTML kodu React öncesi</h1>`;
+        // document.getElementById("root").innerHTML = template;
+
+        // With Babel
+        // Performans olarak yüksek => React 
+        // Kolay kullanım JSX => Babel
+
+        const template = 
+        <div>
+            <h1>Merhaba JSX React Html Kodu</h1>
+            <ul>
+                <li>Test</li>
+                <li>Deneme</li>
+                <li>ABC</li>
+            </ul>
+        </div> // JSX
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(template);
+
+        // 1. Yöntem: NPM, CDN + Tools (Babel)
+        // 2. Yöntem: create-react-app, vite => React, ReactDOM + Tools
+
+    </script>
+</body>
+</html>
