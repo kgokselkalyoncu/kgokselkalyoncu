@@ -1,50 +1,62 @@
-# 00 Basic
-React Giriş seviyesi çalışmalarım bu klasör altında toplanmıştır. Çalışmların detayı alt klasörlerde toplanmıştır. 
+# 📚 00 - Basics
 
-## Examples
-### 01-hello-world
-React a giriş, kurulum ve ilk ekran
+Bu bölümde React’in temel kavramlarını adım adım öğreneceksin.  
+Her klasör, belirli bir konuyu basit örneklerle anlatıyor.  
 
-### 02-jsx-components
-#### simple-component
-#### nested-components
-Todo: Açıklama girilecek
+---
 
-### 03-props
-#### props-basics
-#### props-children
-Todo: Açıklama girilecek
+## 📂 İçindekiler
 
-### 04-state
-#### counter-example
-#### toggle-example
-Todo: Açıklama girilecek
+### 01-hello-world/
+İlk React bileşeni. Ekrana basit bir metin yazdırmayı öğreniyoruz.
 
-### 05-event-handling
-#### button-click
-#### input-change
-Todo: Açıklama girilecek
-### 06-conditional-rendering
-#### if-else-example
-#### ternary-example
-Todo: Açıklama girilecek
-### 07-lists-keys
-#### rendering-list
-#### dynamic-list
-Todo: Açıklama girilecek
-### 08-forms
-#### controlled-input
-#### multiple-inputs
-Todo: Açıklama girilecek
-### 09-hooks-intro
-#### useState-example
-#### useEffect-example
-Todo: Açıklama girilecek
-### 10-lifting-state-up
-#### parent-child-example
-#### multiple-children-example
-Todo: Açıklama girilecek
-### 11-basic-styling
-#### inline-styles
-#### css-modules
-Todo: Açıklama girilecek
+### 02-jsx-components/
+JSX sözdizimi ve component mantığı.  
+Kendi component’lerini oluşturmayı öğreniyoruz.
+
+### 03-props/
+Component’ler arasında veri aktarmak için **props** kullanımı.  
+`props.children` örnekleriyle içerik geçme.
+
+### 04-state/
+useState ile component içinde veri tutmak.  
+Sayaç, toggle gibi örnekler.
+
+### 05-event-handling/
+React’te event yönetimi (onClick, onChange).  
+Buton tıklama ve input değişimini yakalama.
+
+### 06-conditional-rendering/
+Koşullu render.  
+if-else, ternary ve `&&` ile farklı içerikler gösterme.
+
+### 07-lists-keys/
+Listeler üzerinde `map` ile render.  
+Her elemana `key` verme mantığı.
+
+### 08-forms/
+Controlled form yapıları.  
+Input değerlerini state ile kontrol etme.
+
+### 09-hooks-intro/
+React Hooks’a giriş: **useState** ve **useEffect**.  
+State yönetimi ve yan etkiler.
+
+### 10-lifting-state-up/
+State’i parent’a taşıma (state lifting).  
+İki child component arasında ortak state paylaşımı.
+
+### 11-basic-styling/
+React’te stil yöntemleri:  
+- Inline styles  
+- CSS import  
+- CSS Modules  
+
+---
+
+## 🎯 Hedef
+Bu klasördeki örnekler tamamlandığında:
+- React’in temel taşlarını öğrenmiş,
+- Component yapısını kavramış,
+- Props, state ve event mantığını anlamış,
+- İlk basit React projelerini geliştirmeye hazır hale geleceksin.
