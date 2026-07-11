@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37203.1 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-01-csharp-language-fundamentals", "learning\01-csharp-latest-features\01-01-csharp-language-fundamentals\01-01-csharp-language-fundamentals.csproj", "{52FE4461-7A12-432A-8C57-EE5CFD3D4BBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52FE4461-7A12-432A-8C57-EE5CFD3D4BBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52FE4461-7A12-432A-8C57-EE5CFD3D4BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52FE4461-7A12-432A-8C57-EE5CFD3D4BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52FE4461-7A12-432A-8C57-EE5CFD3D4BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C336D054-2214-436B-A699-E265E52FC7BE}
+	EndGlobalSection
+EndGlobal
